@@ -1,7 +1,5 @@
 name: Fetch Reddit Intel
 
-# Runs daily at 05:00 UTC (01:00 Eastern) so the markdown file is fresh
-# before the Growth Agent's 9:30 AM run. Also runs on manual dispatch.
 on:
   schedule:
     - cron: "0 5 * * *"
@@ -22,9 +20,9 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch RSS feeds and build reddit-watch.md
+      - name: Write fetch script
         run: |
-          python - <<'PY'
+          cat > fetch_reddit.py <<'PYEOF'
           import urllib.request
           import xml.etree.ElementTree as ET
           from datetime import datetime, timezone
@@ -37,8 +35,6 @@ jobs:
               ("r/WorkOnline",            "https://www.reddit.com/r/WorkOnline/.rss"),
               ("r/digitalnomad",          "https://www.reddit.com/r/digitalnomad/.rss"),
           ]
-
-          # Reddit blocks default UAs. Use a descriptive one per their API etiquette.
           UA = "loot-growth-intel/0.1 (by /u/Ffasant; contact: filipe.fsantiago@gmail.com)"
           ATOM = "{http://www.w3.org/2005/Atom}"
           MAX_PER_SUB = 25
@@ -51,51 +47,58 @@ jobs:
           def parse(xml_bytes):
               root = ET.fromstring(xml_bytes)
               items = []
-              for entry in root.findall(f"{ATOM}entry"):
-                  title  = (entry.findtext(f"{ATOM}title")   or "").strip()
-                  link_e = entry.find(f"{ATOM}link")
-                  link   = link_e.get("href") if link_e is not None else ""
-                  updated= (entry.findtext(f"{ATOM}updated") or "")[:10]
-                  author = (entry.findtext(f"{ATOM}author/{ATOM}name") or "").strip()
+              for entry in root.findall(ATOM + "entry"):
+                  title = (entry.findtext(ATOM + "title") or "").strip()
+                  link_e = entry.find(ATOM + "link")
+                  link = link_e.get("href") if link_e is not None else ""
+                  updated = (entry.findtext(ATOM + "updated") or "")[:10]
+                  author = (entry.findtext(ATOM + "author/" + ATOM[1:] + "name") or "").strip()
+                  # author XPath fix
+                  author_el = entry.find(ATOM + "author")
+                  if author_el is not None:
+                      name_el = author_el.find(ATOM + "name")
+                      if name_el is not None and name_el.text:
+                          author = name_el.text.strip()
                   items.append((updated, title, link, author))
               items.sort(reverse=True)
               return items[:MAX_PER_SUB]
 
-          lines = []
           stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          lines.append(f"# Reddit Watch — Updated {stamp}\n")
-          lines.append(
-              "Automated RSS pull. One section per subreddit, newest first, "
-              f"max {MAX_PER_SUB} items per sub. "
-              "Filter for Wave / Canadian freelance / invoicing / GST signal on read.\n"
-          )
+          out = []
+          out.append("# Reddit Watch - Updated " + stamp + "\n")
+          out.append("Automated RSS pull. One section per subreddit, newest first, "
+                     "max " + str(MAX_PER_SUB) + " items per sub. "
+                     "Filter for Wave / Canadian freelance / invoicing / GST signal on read.\n")
 
           for label, url in FEEDS:
-              lines.append(f"\n## {label}\n")
+              out.append("\n## " + label + "\n")
               try:
                   items = parse(fetch(url))
                   if not items:
-                      lines.append("_No items returned._\n")
+                      out.append("_No items returned._\n")
                       continue
                   for date, title, link, author in items:
-                      safe_title = title.replace("|", "\\|").replace("\n", " ")
-                      lines.append(f"- {date} — [{safe_title}]({link}) — {author}")
+                      safe = title.replace("|", "\\|").replace("\n", " ")
+                      out.append("- " + date + " - [" + safe + "](" + link + ") - " + author)
               except Exception as e:
-                  lines.append(f"_Fetch failed: {type(e).__name__}: {e}_\n")
+                  out.append("_Fetch failed: " + type(e).__name__ + ": " + str(e) + "_\n")
 
           with open("reddit-watch.md", "w", encoding="utf-8") as f:
-              f.write("\n".join(lines) + "\n")
+              f.write("\n".join(out) + "\n")
           print("Wrote reddit-watch.md")
-          PY
+          PYEOF
 
-          - name: Commit if changed
-           run: |
-             git config user.name  "github-actions[bot]"
-             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-             git add reddit-watch.md
-             if git diff --cached --quiet; then
-               echo "No changes to commit."
-             else
-               git commit -m "chore: update reddit-watch.md"
-               git push
-             fi
+      - name: Run fetch script
+        run: python fetch_reddit.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reddit-watch.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update reddit-watch.md"
+            git push
+          fi
