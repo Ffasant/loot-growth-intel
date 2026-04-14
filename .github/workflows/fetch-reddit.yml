@@ -52,7 +52,7 @@ jobs:
                   link_e = entry.find(ATOM + "link")
                   link = link_e.get("href") if link_e is not None else ""
                   updated = (entry.findtext(ATOM + "updated") or "")[:10]
-                  author = (entry.findtext(ATOM + "author/" + ATOM[1:] + "name") or "").strip()
+                  author = ""
                   # author XPath fix
                   author_el = entry.find(ATOM + "author")
                   if author_el is not None:
