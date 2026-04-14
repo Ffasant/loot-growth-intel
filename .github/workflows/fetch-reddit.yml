@@ -88,14 +88,14 @@ jobs:
           print("Wrote reddit-watch.md")
           PY
 
-      - name: Commit if changed
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- reddit-watch.md 2>/dev/null; then
-            echo "No changes to commit."
-          else
-            git add reddit-watch.md
-            git commit -m "chore: update reddit-watch.md"
-            git push
-          fi
+          - name: Commit if changed
+           run: |
+             git config user.name  "github-actions[bot]"
+             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+             git add reddit-watch.md
+             if git diff --cached --quiet; then
+               echo "No changes to commit."
+             else
+               git commit -m "chore: update reddit-watch.md"
+               git push
+             fi
