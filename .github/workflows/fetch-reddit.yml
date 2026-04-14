@@ -1,0 +1,101 @@
+name: Fetch Reddit Intel
+
+# Runs daily at 05:00 UTC (01:00 Eastern) so the markdown file is fresh
+# before the Growth Agent's 9:30 AM run. Also runs on manual dispatch.
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch RSS feeds and build reddit-watch.md
+        run: |
+          python - <<'PY'
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+
+          FEEDS = [
+              ("r/freelance",             "https://www.reddit.com/r/freelance/.rss"),
+              ("r/PersonalFinanceCanada", "https://www.reddit.com/r/PersonalFinanceCanada/.rss"),
+              ("r/smallbusiness",         "https://www.reddit.com/r/smallbusiness/.rss"),
+              ("r/canadianbusiness",      "https://www.reddit.com/r/canadianbusiness/.rss"),
+              ("r/WorkOnline",            "https://www.reddit.com/r/WorkOnline/.rss"),
+              ("r/digitalnomad",          "https://www.reddit.com/r/digitalnomad/.rss"),
+          ]
+
+          # Reddit blocks default UAs. Use a descriptive one per their API etiquette.
+          UA = "loot-growth-intel/0.1 (by /u/Ffasant; contact: filipe.fsantiago@gmail.com)"
+          ATOM = "{http://www.w3.org/2005/Atom}"
+          MAX_PER_SUB = 25
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": UA})
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  return r.read()
+
+          def parse(xml_bytes):
+              root = ET.fromstring(xml_bytes)
+              items = []
+              for entry in root.findall(f"{ATOM}entry"):
+                  title  = (entry.findtext(f"{ATOM}title")   or "").strip()
+                  link_e = entry.find(f"{ATOM}link")
+                  link   = link_e.get("href") if link_e is not None else ""
+                  updated= (entry.findtext(f"{ATOM}updated") or "")[:10]
+                  author = (entry.findtext(f"{ATOM}author/{ATOM}name") or "").strip()
+                  items.append((updated, title, link, author))
+              items.sort(reverse=True)
+              return items[:MAX_PER_SUB]
+
+          lines = []
+          stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          lines.append(f"# Reddit Watch — Updated {stamp}\n")
+          lines.append(
+              "Automated RSS pull. One section per subreddit, newest first, "
+              f"max {MAX_PER_SUB} items per sub. "
+              "Filter for Wave / Canadian freelance / invoicing / GST signal on read.\n"
+          )
+
+          for label, url in FEEDS:
+              lines.append(f"\n## {label}\n")
+              try:
+                  items = parse(fetch(url))
+                  if not items:
+                      lines.append("_No items returned._\n")
+                      continue
+                  for date, title, link, author in items:
+                      safe_title = title.replace("|", "\\|").replace("\n", " ")
+                      lines.append(f"- {date} — [{safe_title}]({link}) — {author}")
+              except Exception as e:
+                  lines.append(f"_Fetch failed: {type(e).__name__}: {e}_\n")
+
+          with open("reddit-watch.md", "w", encoding="utf-8") as f:
+              f.write("\n".join(lines) + "\n")
+          print("Wrote reddit-watch.md")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- reddit-watch.md 2>/dev/null; then
+            echo "No changes to commit."
+          else
+            git add reddit-watch.md
+            git commit -m "chore: update reddit-watch.md"
+            git push
+          fi
