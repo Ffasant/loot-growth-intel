@@ -31,7 +31,6 @@ jobs:
               ("r/freelance",             "https://www.reddit.com/r/freelance/.rss"),
               ("r/PersonalFinanceCanada", "https://www.reddit.com/r/PersonalFinanceCanada/.rss"),
               ("r/smallbusiness",         "https://www.reddit.com/r/smallbusiness/.rss"),
-              ("r/canadianbusiness",      "https://www.reddit.com/r/canadianbusiness/.rss"),
               ("r/WorkOnline",            "https://www.reddit.com/r/WorkOnline/.rss"),
               ("r/digitalnomad",          "https://www.reddit.com/r/digitalnomad/.rss"),
           ]
