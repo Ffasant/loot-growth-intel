@@ -1,10 +1,11 @@
-# Reddit Watch - Updated 2026-05-06 07:36 UTC
+# Reddit Watch - Updated 2026-05-07 07:43 UTC
 
 Automated RSS pull. One section per subreddit, newest first, max 25 items per sub. Filter for Wave / Canadian freelance / invoicing / GST signal on read.
 
 
 ## r/freelance
 
+- 2026-05-06 - [Anyone else had a client use your nationality against you in a professional dispute?](https://www.reddit.com/r/freelance/comments/1t5q130/anyone_else_had_a_client_use_your_nationality/) - /u/rafnotfound
 - 2026-05-05 - [Mentally attracting clients](https://www.reddit.com/r/freelance/comments/1t4q233/mentally_attracting_clients/) - /u/Itchy-Book402
 - 2026-05-04 - [Dropped a client for the first time](https://www.reddit.com/r/freelance/comments/1t3vcn5/dropped_a_client_for_the_first_time/) - /u/BulkyOwl3005
 - 2026-05-01 - [Former client reached out - Unsure if I should take it](https://www.reddit.com/r/freelance/comments/1t0wd0s/former_client_reached_out_unsure_if_i_should_take/) - /u/Wooden_Week_8965
@@ -28,67 +29,68 @@ Automated RSS pull. One section per subreddit, newest first, max 25 items per su
 - 2026-04-01 - [Remote Software Engineer - how do you tackle with emotions](https://www.reddit.com/r/freelance/comments/1s9iea1/remote_software_engineer_how_do_you_tackle_with/) - /u/Juustege
 - 2026-03-27 - [Got My First Sale Today, Almost Quit Yesterday](https://www.reddit.com/r/freelance/comments/1s4u6q3/got_my_first_sale_today_almost_quit_yesterday/) - /u/HammerCrafted_Sec
 - 2026-03-26 - [How to write freelance proposals that actually win](https://www.reddit.com/r/freelance/comments/1s4k0jm/how_to_write_freelance_proposals_that_actually_win/) - /u/Top-Engineer9939
-- 2026-03-24 - [Spent $200+ on Instagram ads, got 8 DMs, zero clients. What am I doing wrong?](https://www.reddit.com/r/freelance/comments/1s2hdo1/spent_200_on_instagram_ads_got_8_dms_zero_clients/) - /u/Euphoric_Trouble_238
 - 2018-09-24 - [Please Read This Before Posting or Commenting](https://www.reddit.com/r/freelance/comments/9imfv9/please_read_this_before_posting_or_commenting/) - /u/martey
 
 ## r/PersonalFinanceCanada
 
-- 2026-05-06 - [Wealthsimple vs rogers WE](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4zf4y/wealthsimple_vs_rogers_we/) - /u/neko_whippet
-- 2026-05-06 - [Thank You for All Your Advice/Help](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t51pwi/thank_you_for_all_your_advicehelp/) - /u/Cute-Light4637
-- 2026-05-06 - [TFSA](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t544q9/tfsa/) - /u/Fragrant_Cause_7056
-- 2026-05-06 - [T2 tax software recommendations](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4xe0r/t2_tax_software_recommendations/) - /u/Mightyreds7777
-- 2026-05-06 - [Renewing Mortgage But LTV is greater than 80%](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4ycse/renewing_mortgage_but_ltv_is_greater_than_80/) - /u/Upset-Two-2443
-- 2026-05-06 - [RSU to RRSP](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t51kjt/rsu_to_rrsp/) - /u/Delicious-Ad-4521
-- 2026-05-06 - [Question about mortgage rates](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4xgxd/question_about_mortgage_rates/) - /u/tman37
-- 2026-05-06 - [Need guidance- move or stay](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t50qag/need_guidance_move_or_stay/) - /u/Routine-Cobbler8237
-- 2026-05-06 - [Life insurance advice](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4yiks/life_insurance_advice/) - /u/lalilulelo1990
-- 2026-05-06 - [Credit counseling society](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t50m7e/credit_counseling_society/) - /u/Alternative_Limit993
-- 2026-05-06 - [BMO screwed up credit score](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t54q8u/bmo_screwed_up_credit_score/) - /u/Old_Camera8252
+- 2026-05-07 - [Tax free FHSA withdrawal or transfer to RRSP?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5wxcv/tax_free_fhsa_withdrawal_or_transfer_to_rrsp/) - /u/TheMovieBuff10
+- 2026-05-07 - [Switching from Employee to Self-Employed Contractor 6 Months Before Mat Leave](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t62o5r/switching_from_employee_to_selfemployed/) - /u/ait77
+- 2026-05-07 - [Scotiabank Ultimate + Amex Gold](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5uy1j/scotiabank_ultimate_amex_gold/) - /u/kalnik09
+- 2026-05-07 - [Resources for decumulation strategy with corporation.](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t60xol/resources_for_decumulation_strategy_with/) - /u/Material-Opening4944
+- 2026-05-07 - [RRSP withdrawal as non Resident](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t62wrb/rrsp_withdrawal_as_non_resident/) - /u/al-in-to
+- 2026-05-07 - [Pension Plan vs RSP Contribution for tax benefits](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5vxh4/pension_plan_vs_rsp_contribution_for_tax_benefits/) - /u/cforget96
+- 2026-05-07 - [Moving RRSP to wealthsimple](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5ybcc/moving_rrsp_to_wealthsimple/) - /u/Legal-Dot9083
+- 2026-05-07 - [Moving Countries - Transfer Ownership or Sell Home](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5znnr/moving_countries_transfer_ownership_or_sell_home/) - /u/oikosyogurtt
+- 2026-05-07 - [Is excellent credit even still worth it?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5zv0l/is_excellent_credit_even_still_worth_it/) - /u/twranks
+- 2026-05-07 - [Investment Advice](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5uxj7/investment_advice/) - /u/beefd00d
+- 2026-05-07 - [Can Touring Musicians use the Simplified Method to Calculate Meal Expenses?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5ze7o/can_touring_musicians_use_the_simplified_method/) - /u/sabert00thliger
+- 2026-05-07 - [Being hounded by different collection agency.](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5us46/being_hounded_by_different_collection_agency/) - /u/Training-Recover-74
+- 2026-05-07 - [Bank preference in terms of investing and saving.](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5wz9j/bank_preference_in_terms_of_investing_and_saving/) - /u/Worldly_Percentage_8
+- 2026-05-06 - [This CBC article about Canada's housing density boom never asks why land got so expensive in the first place](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5jqtu/this_cbc_article_about_canadas_housing_density/) - /u/DynamoDynamite
+- 2026-05-06 - [TFSA](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5imig/tfsa/) - /u/Sierra93
+- 2026-05-06 - [Student Grant for Services and Equipment: Questions](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5qtl4/student_grant_for_services_and_equipment_questions/) - /u/PinOk5577
+- 2026-05-06 - [Should I drop out of university and do school while living at home?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5swbj/should_i_drop_out_of_university_and_do_school/) - /u/Holiday-Ferret6207
+- 2026-05-06 - [Repaying CDCP with coverage?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5lflu/repaying_cdcp_with_coverage/) - /u/newschmoney
+- 2026-05-06 - [Recent attitude of my financial advisor](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5japr/recent_attitude_of_my_financial_advisor/) - /u/peter_is_the_champ
+- 2026-05-06 - [RRSP and USD Questions](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5hw84/rrsp_and_usd_questions/) - /u/MaleficentParsley668
+- 2026-05-06 - [PSA - WealthSimple Tax, line 31270 for Home Buyers Amount](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5nzhu/psa_wealthsimple_tax_line_31270_for_home_buyers/) - /u/Busy-Power-2610
+- 2026-05-06 - [Manulife One (Buying 2nd Home)](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5nj1t/manulife_one_buying_2nd_home/) - /u/sleep_reddit_repeat
+- 2026-05-06 - [Downside of early retirement](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5ggpq/downside_of_early_retirement/) - /u/Beneficial_Swimming4
+- 2026-05-06 - [Budgeting Apps](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t5h7r2/budgeting_apps/) - /u/iamsmolnerd
 - 2026-05-06 - [Are there PayPal alternatives in Canada?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t53pib/are_there_paypal_alternatives_in_canada/) - /u/broadwaybabyto
-- 2026-05-05 - [Tax reassessed, RESP questions](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4s8g2/tax_reassessed_resp_questions/) - /u/manitobaairsoft
-- 2026-05-05 - [RRSP or TFSA? For Home Down Payment](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4tlxr/rrsp_or_tfsa_for_home_down_payment/) - /u/HHBelt
-- 2026-05-05 - [Pull Out Of Stock Portfolio To Buy House Cash?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4rdnd/pull_out_of_stock_portfolio_to_buy_house_cash/) - /u/PocketMafia
-- 2026-05-05 - [Not getting Employment Insurance because there is no phone number for ex-employer](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4sq4b/not_getting_employment_insurance_because_there_is/) - /u/Milespwns89
-- 2026-05-05 - [Investor’s Edge announced $0 commissions on ETFs](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4e14t/investors_edge_announced_0_commissions_on_etfs/) - /u/Kind-Set-5286
-- 2026-05-05 - [I'm unclear about how a mortgage is calculated](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4ry0a/im_unclear_about_how_a_mortgage_is_calculated/) - /u/yestocommunity
-- 2026-05-05 - [EQ vs. Tangerine vs. Simplii](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4pedd/eq_vs_tangerine_vs_simplii/) - /u/arrules06
-- 2026-05-05 - [Contemplating buying our first (town)home!](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4iupk/contemplating_buying_our_first_townhome/) - /u/shaunsreddit
-- 2026-05-05 - [Company under CRA audit gave workers letters saying wages were 'non-taxable'](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4esww/company_under_cra_audit_gave_workers_letters/) - /u/henry-bacon
-- 2026-05-05 - [BMO Mortgage Renewal July 1st, 2026](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4o5kf/bmo_mortgage_renewal_july_1st_2026/) - /u/Distinct_Scallion342
-- 2026-05-05 - [Are There Any Real Tax Strategies for High-Income Salaried Employees in Ontario?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t45yih/are_there_any_real_tax_strategies_for_highincome/) - /u/Stunning_Shock_9638
-- 2026-05-05 - [3 months pregnant wife lost her job - Mat leave options](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t4kjut/3_months_pregnant_wife_lost_her_job_mat_leave/) - /u/Specialist-While-148
-- 2026-05-04 - [63 yr old let go at work after over 30 years of service. Implications of cashing out RRSP now?](https://www.reddit.com/r/PersonalFinanceCanada/comments/1t3t5ml/63_yr_old_let_go_at_work_after_over_30_years_of/) - /u/Sure-Elevator3023
 
 ## r/smallbusiness
 
-- 2026-05-06 - [[ Removed by Reddit ]](https://www.reddit.com/r/smallbusiness/comments/1t5556j/removed_by_reddit/) - /u/RichStable7191
-- 2026-05-06 - [[ Removed by Reddit ]](https://www.reddit.com/r/smallbusiness/comments/1t543cx/removed_by_reddit/) - /u/Inevitable_Sand_4094
-- 2026-05-06 - [What made your business operations easier to manage](https://www.reddit.com/r/smallbusiness/comments/1t52jet/what_made_your_business_operations_easier_to/) - /u/ElectronicStyle532
-- 2026-05-06 - [Want to Monetize Art](https://www.reddit.com/r/smallbusiness/comments/1t53juk/want_to_monetize_art/) - /u/ArtSideHustler
-- 2026-05-06 - [Things I wish I knew about SEO when I started my business.](https://www.reddit.com/r/smallbusiness/comments/1t54i0x/things_i_wish_i_knew_about_seo_when_i_started_my/) - /u/Head_Part_2956
-- 2026-05-06 - [Questions on how to proceed](https://www.reddit.com/r/smallbusiness/comments/1t50kby/questions_on_how_to_proceed/) - /u/glassjaw12
-- 2026-05-06 - [Opening My Own Cafe/Bakery](https://www.reddit.com/r/smallbusiness/comments/1t559vr/opening_my_own_cafebakery/) - /u/Ill-Purchase4010
-- 2026-05-06 - [Monetizing Art](https://www.reddit.com/r/smallbusiness/comments/1t53hpp/monetizing_art/) - /u/ArtSideHustler
-- 2026-05-06 - [Made to order business failing and I don't know how to close down](https://www.reddit.com/r/smallbusiness/comments/1t4xlka/made_to_order_business_failing_and_i_dont_know/) - /u/Slow_Education_1982
-- 2026-05-06 - [Is the nursery business actually a profitable business… or is social media romanticizing it too much?](https://www.reddit.com/r/smallbusiness/comments/1t52n7q/is_the_nursery_business_actually_a_profitable/) - /u/Ok_Swordfish_9334
-- 2026-05-06 - [Is anyone else tired of the 'hustle porn' advice that says you should work 80 hour weeks to scale?](https://www.reddit.com/r/smallbusiness/comments/1t4zr2w/is_anyone_else_tired_of_the_hustle_porn_advice/) - /u/Weird_Anteater_6356
-- 2026-05-06 - [How to Make an Art Club Financially Sustainable (and Profitable)?](https://www.reddit.com/r/smallbusiness/comments/1t55jer/how_to_make_an_art_club_financially_sustainable/) - /u/Bitter-Hawk-2615
-- 2026-05-06 - [How do you manage restocking in a small retail store?](https://www.reddit.com/r/smallbusiness/comments/1t4xibe/how_do_you_manage_restocking_in_a_small_retail/) - /u/dandanyay
-- 2026-05-06 - [How do businesses in Canada keep track of taxes, filings and deadlines for their business? Is there a tool currently available in the market which helps them do this?](https://www.reddit.com/r/smallbusiness/comments/1t52qt1/how_do_businesses_in_canada_keep_track_of_taxes/) - /u/Independent_Choice_7
-- 2026-05-06 - [Ecommerce SEO](https://www.reddit.com/r/smallbusiness/comments/1t53pam/ecommerce_seo/) - /u/Relative-Ad7215
-- 2026-05-06 - [Do any of you get sales calls for missed call text back services? How do you feel about these calls](https://www.reddit.com/r/smallbusiness/comments/1t51a9w/do_any_of_you_get_sales_calls_for_missed_call/) - /u/Brave-Peanut-5583
-- 2026-05-06 - [Built a small jewelry brand: Stuck between “looks good” and actual sales. Need real advice.](https://www.reddit.com/r/smallbusiness/comments/1t546ea/built_a_small_jewelry_brand_stuck_between_looks/) - /u/Flower_Basket
-- 2026-05-06 - [48F Gen X - I know nothing](https://www.reddit.com/r/smallbusiness/comments/1t55o3i/48f_gen_x_i_know_nothing/) - /u/GuideVegetable6416
-- 2026-05-05 - [Whats actually the best way for local businesses to get discovered online?](https://www.reddit.com/r/smallbusiness/comments/1t4rgtq/whats_actually_the_best_way_for_local_businesses/) - /u/Leading_Month_5575
-- 2026-05-05 - [Recent graduate hires struggling more with communication and professionalism?](https://www.reddit.com/r/smallbusiness/comments/1t4iw7d/recent_graduate_hires_struggling_more_with/) - /u/WinterImaginary8043
+- 2026-05-07 - [how do you guys track your sales/revenue?](https://www.reddit.com/r/smallbusiness/comments/1t63aom/how_do_you_guys_track_your_salesrevenue/) - /u/BestLengthiness3988
+- 2026-05-07 - [[ Removed by Reddit ]](https://www.reddit.com/r/smallbusiness/comments/1t62tgx/removed_by_reddit/) - /u/CommunicationFew8290
+- 2026-05-07 - [Why are most GST billing apps so complicated for small businesses?](https://www.reddit.com/r/smallbusiness/comments/1t61e5c/why_are_most_gst_billing_apps_so_complicated_for/) - /u/sujit01989
+- 2026-05-07 - [What's the workflow of your retail shop?](https://www.reddit.com/r/smallbusiness/comments/1t62mz8/whats_the_workflow_of_your_retail_shop/) - /u/CarrySubstantial1462
+- 2026-05-07 - [What actually makes someone “deeply informed” about an industry in a specific region?](https://www.reddit.com/r/smallbusiness/comments/1t62rmo/what_actually_makes_someone_deeply_informed_about/) - /u/gimmelord
+- 2026-05-07 - [Starting my online business](https://www.reddit.com/r/smallbusiness/comments/1t5zh0m/starting_my_online_business/) - /u/Electronic-Mouse-706
+- 2026-05-07 - [Small business owners, do you guys work with UGC creators? If so how much does it cost?](https://www.reddit.com/r/smallbusiness/comments/1t6362z/small_business_owners_do_you_guys_work_with_ugc/) - /u/dang64
+- 2026-05-07 - [Shift schedule adjustments](https://www.reddit.com/r/smallbusiness/comments/1t61pls/shift_schedule_adjustments/) - /u/BonelessWiener
+- 2026-05-07 - [One thing I learned the hard way running a small business](https://www.reddit.com/r/smallbusiness/comments/1t5xt9x/one_thing_i_learned_the_hard_way_running_a_small/) - /u/CleanOpsGuide
+- 2026-05-07 - [Networking and Business Connections in Taiwan.](https://www.reddit.com/r/smallbusiness/comments/1t62vuc/networking_and_business_connections_in_taiwan/) - /u/RobWD90
+- 2026-05-07 - [My boba shop has suddenly gone down in sales](https://www.reddit.com/r/smallbusiness/comments/1t5wiuy/my_boba_shop_has_suddenly_gone_down_in_sales/) - /u/Ghost-doodles
+- 2026-05-07 - [Most small businesses that say they cannot afford marketing are already spending on it - just in ways that never show up in the marketing budget](https://www.reddit.com/r/smallbusiness/comments/1t61w3k/most_small_businesses_that_say_they_cannot_afford/) - /u/Important_Coach8050
+- 2026-05-07 - [Email only or give them a dashboard? Running a small monitoring service and stuck on what clients actually want](https://www.reddit.com/r/smallbusiness/comments/1t616zh/email_only_or_give_them_a_dashboard_running_a/) - /u/impossibletocode
+- 2026-05-07 - [Do you onboard 5+ clients a months?](https://www.reddit.com/r/smallbusiness/comments/1t639e8/do_you_onboard_5_clients_a_months/) - /u/No_Control4785
+- 2026-05-07 - [Calendar syncing](https://www.reddit.com/r/smallbusiness/comments/1t5vmbj/calendar_syncing/) - /u/No_Thanks3374
+- 2026-05-07 - [Business owners who can't code, how do you make your website?](https://www.reddit.com/r/smallbusiness/comments/1t62ttl/business_owners_who_cant_code_how_do_you_make/) - /u/Choice-Particular110
+- 2026-05-07 - [Business license trouble while moving from a sole prop to a partnership](https://www.reddit.com/r/smallbusiness/comments/1t61ltk/business_license_trouble_while_moving_from_a_sole/) - /u/bohemian_stargazer
+- 2026-05-06 - [Ransomware on small and midsize businesses jumped 68% last year — average ransom $247K, average downtime 24 days, and 88% of all ransomware incidents now hit SMBs](https://www.reddit.com/r/smallbusiness/comments/1t5ts1a/ransomware_on_small_and_midsize_businesses_jumped/) - /u/i-am-entropyy
+- 2026-05-06 - [Just got my first order in months. its only a few hundred bucks but i nearly cried.](https://www.reddit.com/r/smallbusiness/comments/1t5a1zy/just_got_my_first_order_in_months_its_only_a_few/) - /u/keenoya
+- 2026-05-06 - [I found a client for my client and I can't get him to give me a review.](https://www.reddit.com/r/smallbusiness/comments/1t5si9g/i_found_a_client_for_my_client_and_i_cant_get_him/) - /u/Common-Sense-9595
+- 2026-05-06 - [Family business succession](https://www.reddit.com/r/smallbusiness/comments/1t5srlm/family_business_succession/) - /u/sh3af
+- 2026-05-06 - [Business checking account](https://www.reddit.com/r/smallbusiness/comments/1t5rgcr/business_checking_account/) - /u/pickpro2020
+- 2026-05-06 - [0 to first cold email campaign in a weekend. step by step](https://www.reddit.com/r/smallbusiness/comments/1t5q9go/0_to_first_cold_email_campaign_in_a_weekend_step/) - /u/august212023
 - 2026-05-05 - [National Small Business Week: Everything Happening for Small Businesses on Reddit](https://www.reddit.com/r/smallbusiness/comments/1t4157s/national_small_business_week_everything_happening/) - /u/BigSlowTarget
-- 2026-05-05 - [How did you get your first real customers?](https://www.reddit.com/r/smallbusiness/comments/1t4wlym/how_did_you_get_your_first_real_customers/) - /u/bandito_13
-- 2026-05-05 - [Contractor tried to get us to fake-cancel service and pay him directly; husband reported it; worker got fired and called me yelling. Looking for small business owner perspective.](https://www.reddit.com/r/smallbusiness/comments/1t4pphz/contractor_tried_to_get_us_to_fakecancel_service/) - /u/Inevitable-Math-9323
-- 2026-05-05 - [Client owes me $3k and is 45 days late. How much time do you guys waste chasing unpaid invoices?](https://www.reddit.com/r/smallbusiness/comments/1t4hryr/client_owes_me_3k_and_is_45_days_late_how_much/) - /u/Jealous-Honey9300
 - 2026-04-13 - [Promote your business, week of April 13, 2026](https://www.reddit.com/r/smallbusiness/comments/1sk086d/promote_your_business_week_of_april_13_2026/) - /u/Charice
 
 ## r/WorkOnline
 
+- 2026-05-06 - [⚠️ DO NOT WORK FOR UBER AI SOLUTIONS — WARNING FROM AN EXPERIENCED ANNOTATOR](https://www.reddit.com/r/WorkOnline/comments/1t5tntr/do_not_work_for_uber_ai_solutions_warning_from_an/) - /u/Large-Cut8248
+- 2026-05-06 - [Has anyone heard of Always Quinnly?](https://www.reddit.com/r/WorkOnline/comments/1t5bvzc/has_anyone_heard_of_always_quinnly/) - /u/No_Tomato5140
 - 2026-05-05 - [Anyone else signed up to Careerflow AI?](https://www.reddit.com/r/WorkOnline/comments/1t40fuq/anyone_else_signed_up_to_careerflow_ai/) - /u/tiramisuuu65
 - 2026-05-04 - [Warning about Mindrift, and potential free labour](https://www.reddit.com/r/WorkOnline/comments/1t3b00r/warning_about_mindrift_and_potential_free_labour/) - /u/Katherine67856
 - 2026-05-04 - [Otispeed, Work from home Scam?](https://www.reddit.com/r/WorkOnline/comments/1t3hdtk/otispeed_work_from_home_scam/) - /u/Scully68
@@ -110,35 +112,33 @@ Automated RSS pull. One section per subreddit, newest first, max 25 items per su
 - 2026-04-15 - [Shyftoff questions](https://www.reddit.com/r/WorkOnline/comments/1smaxxy/shyftoff_questions/) - /u/Longjumping-Mango831
 - 2026-04-15 - [Ascension Health Hiring Process](https://www.reddit.com/r/WorkOnline/comments/1smd1on/ascension_health_hiring_process/) - /u/Inner-Power-9382
 - 2026-04-14 - [Is anyone still using Freelancer.com? Do you actually get jobs there?](https://www.reddit.com/r/WorkOnline/comments/1sl1bmo/is_anyone_still_using_freelancercom_do_you/) - /u/Nearby_Pizza_7567
-- 2026-04-13 - [Productive Playhouse](https://www.reddit.com/r/WorkOnline/comments/1skhr8q/productive_playhouse/) - /u/mashykatoz
-- 2026-04-12 - [New Fiverr seller (Social Media Manager) - are beginners getting orders in this field?](https://www.reddit.com/r/WorkOnline/comments/1sjhpyl/new_fiverr_seller_social_media_manager_are/) - /u/Nearby_Pizza_7567
-- 2024-05-28 - [Invisible Technologies - WARNING](https://www.reddit.com/r/WorkOnline/comments/1d28xfg/invisible_technologies_warning/) - /u/aakkssaa
 - 2021-02-19 - [Some things to search before coming on here and asking WHAT JOBS ARE ONLINE???](https://www.reddit.com/r/WorkOnline/comments/lnml80/some_things_to_search_before_coming_on_here_and/) - /u/Physical-Wasabi
+- 2021-02-14 - [This sub is NOT for self-promotion. Posts advertising yourself for hire will be removed without hesitation.](https://www.reddit.com/r/WorkOnline/comments/lk04i4/this_sub_is_not_for_selfpromotion_posts/) - /u/mybeermoneyaccount
 
 ## r/digitalnomad
 
+- 2026-05-07 - [What's the best coworking coffee spots in your city?](https://www.reddit.com/r/digitalnomad/comments/1t5xd7k/whats_the_best_coworking_coffee_spots_in_your_city/) - /u/Some_Bid3004
+- 2026-05-07 - [Was planning to digital nomad for 3 weeks in budapest but just lost my job. Will 3 weeks be too long?](https://www.reddit.com/r/digitalnomad/comments/1t5vdwx/was_planning_to_digital_nomad_for_3_weeks_in/) - /u/No-Fish-4939
+- 2026-05-07 - [Non US Founders What was your biggest headache when opening an LLC in the US?](https://www.reddit.com/r/digitalnomad/comments/1t5v9v7/non_us_founders_what_was_your_biggest_headache/) - /u/loviecommunity
+- 2026-05-07 - [Legal Action Against Malaysian Company for Unpaid Remote Salary (March & April 2026)](https://www.reddit.com/r/digitalnomad/comments/1t62s51/legal_action_against_malaysian_company_for_unpaid/) - /u/Dry_Patience_9483
+- 2026-05-07 - [Help me choose a European city 🤔](https://www.reddit.com/r/digitalnomad/comments/1t5xge7/help_me_choose_a_european_city/) - /u/StraightPin4420
+- 2026-05-07 - [Help Needed: Historic 16th Century Dar in Fes Medina, Morocco](https://www.reddit.com/r/digitalnomad/comments/1t5xoo9/help_needed_historic_16th_century_dar_in_fes/) - /u/MixmasterMelonhead
 - 2026-05-06 - [Would you still travel if your home country was just as cheap](https://www.reddit.com/r/digitalnomad/comments/1t4wtpb/would_you_still_travel_if_your_home_country_was/) - /u/Saphiaer
-- 2026-05-06 - [The USDC pay-to-spend gap is killing me](https://www.reddit.com/r/digitalnomad/comments/1t54u0a/the_usdc_paytospend_gap_is_killing_me/) - /u/MeetVege
-- 2026-05-06 - [Rio housing for solo female traveler (3 months)](https://www.reddit.com/r/digitalnomad/comments/1t4yikw/rio_housing_for_solo_female_traveler_3_months/) - /u/BellEvening6493
-- 2026-05-06 - [Quick tip for payments on the go](https://www.reddit.com/r/digitalnomad/comments/1t52lqi/quick_tip_for_payments_on_the_go/) - /u/strawberrycheesekek
-- 2026-05-06 - [My client LITERALLY told me it's annoying to pay me😭](https://www.reddit.com/r/digitalnomad/comments/1t55s1h/my_client_literally_told_me_its_annoying_to_pay_me/) - /u/Sir_SterlingFX
-- 2026-05-06 - [Is tutoring languages a viable remote work option while traveling indefinitely?](https://www.reddit.com/r/digitalnomad/comments/1t4zb4m/is_tutoring_languages_a_viable_remote_work_option/) - /u/Fun-Gate-9477
-- 2026-05-06 - [How do you balance your mental well-being?](https://www.reddit.com/r/digitalnomad/comments/1t4y58z/how_do_you_balance_your_mental_wellbeing/) - /u/sns2017
-- 2026-05-06 - [For digital nomads in Malaysia , have you had to leave the country before getting the approval?](https://www.reddit.com/r/digitalnomad/comments/1t4ypwe/for_digital_nomads_in_malaysia_have_you_had_to/) - /u/AsparagusCute6552
-- 2026-05-06 - [CV location for a non-European B2B contractor targeting EU remote roles (contracting via Georgian entity)](https://www.reddit.com/r/digitalnomad/comments/1t50mwh/cv_location_for_a_noneuropean_b2b_contractor/) - /u/Shawarmammamia
-- 2026-05-06 - [Brazil Tax Attorney Recommendation](https://www.reddit.com/r/digitalnomad/comments/1t5053y/brazil_tax_attorney_recommendation/) - /u/GrumpyPidgeon
-- 2026-05-06 - [Been thinking about an idea and wanted honest opinions from people who travel / rent properties often.](https://www.reddit.com/r/digitalnomad/comments/1t4yvfx/been_thinking_about_an_idea_and_wanted_honest/) - /u/Massive_Rabbit2064
-- 2026-05-05 - [shelborne hotel Miami Beach review and whether it's worth the price for a weekend stay](https://www.reddit.com/r/digitalnomad/comments/1t46io5/shelborne_hotel_miami_beach_review_and_whether/) - /u/Scawwotish_owl88
-- 2026-05-05 - [first solo trip and feeling unsure](https://www.reddit.com/r/digitalnomad/comments/1t4urm7/first_solo_trip_and_feeling_unsure/) - /u/wellsy1990
-- 2026-05-05 - [Skype messenger/sessions alternative](https://www.reddit.com/r/digitalnomad/comments/1t46m6c/skype_messengersessions_alternative/) - /u/UnusualSoup
+- 2026-05-06 - [Weird experience with AirBnB - missed check-in time was within their policy](https://www.reddit.com/r/digitalnomad/comments/1t5a2ib/weird_experience_with_airbnb_missed_checkin_time/) - /u/elventhor
+- 2026-05-06 - [Warning about LIV Realty Medellín / Lorena Garcia](https://www.reddit.com/r/digitalnomad/comments/1t5ahv7/warning_about_liv_realty_medellín_lorena_garcia/) - /u/hmmmyfingersmells
+- 2026-05-06 - [Vertical Portable Monitor](https://www.reddit.com/r/digitalnomad/comments/1t5p8ru/vertical_portable_monitor/) - /u/dca12345
+- 2026-05-06 - [US virtual address for banking purposes](https://www.reddit.com/r/digitalnomad/comments/1t5pnl2/us_virtual_address_for_banking_purposes/) - /u/TupaG
+- 2026-05-06 - [Looking for the best place in Europe to stay 1–2 months (budget €1k, good weather)](https://www.reddit.com/r/digitalnomad/comments/1t5qstw/looking_for_the_best_place_in_europe_to_stay_12/) - /u/Wrong_Connection_138
+- 2026-05-06 - [Is there anyone else here trailing around the USA?](https://www.reddit.com/r/digitalnomad/comments/1t5p2t8/is_there_anyone_else_here_trailing_around_the_usa/) - /u/HabitsAreKey
+- 2026-05-06 - [I'm studying this spiritual treats and would love to connect with people experienced in boutique retreats](https://www.reddit.com/r/digitalnomad/comments/1t5qsno/im_studying_this_spiritual_treats_and_would_love/) - /u/jayn100
+- 2026-05-06 - [First time digital nomading - anxiety](https://www.reddit.com/r/digitalnomad/comments/1t5h7up/first_time_digital_nomading_anxiety/) - /u/Positive-Try-8685
+- 2026-05-06 - [Fashion on the road - share your tips and tricks](https://www.reddit.com/r/digitalnomad/comments/1t56fvi/fashion_on_the_road_share_your_tips_and_tricks/) - /u/pungen
+- 2026-05-06 - [Experience with Indonesian D12 visa?](https://www.reddit.com/r/digitalnomad/comments/1t5btxw/experience_with_indonesian_d12_visa/) - /u/DragTrue4451
+- 2026-05-06 - [Do digital photo frames actually work long term?](https://www.reddit.com/r/digitalnomad/comments/1t5cx88/do_digital_photo_frames_actually_work_long_term/) - /u/EffectiveDebate4951
+- 2026-05-06 - [Do Banks ever question your U.S. physical address if you use your cards consistently abroad long term?](https://www.reddit.com/r/digitalnomad/comments/1t5gq0l/do_banks_ever_question_your_us_physical_address/) - /u/InspectorT3
+- 2026-05-06 - [Best destinations for a solo traveler in Europe](https://www.reddit.com/r/digitalnomad/comments/1t5ndby/best_destinations_for_a_solo_traveler_in_europe/) - /u/archivedbandit
+- 2026-05-06 - [Any actually good dating apps/sites for digital nomads?](https://www.reddit.com/r/digitalnomad/comments/1t5rm57/any_actually_good_dating_appssites_for_digital/) - /u/YetiMaverick
+- 2026-05-06 - [American Nomads how to park your number](https://www.reddit.com/r/digitalnomad/comments/1t5r538/american_nomads_how_to_park_your_number/) - /u/Sir_JaredIV
 - 2026-05-05 - [Sharing accommodation with fellow digital nomads?](https://www.reddit.com/r/digitalnomad/comments/1t4rlbe/sharing_accommodation_with_fellow_digital_nomads/) - /u/TijuannaCupcakes
-- 2026-05-05 - [How was it secretly working outside the country?](https://www.reddit.com/r/digitalnomad/comments/1t4t1d7/how_was_it_secretly_working_outside_the_country/) - /u/Broad-Cranberry-9050
-- 2026-05-05 - [Help getting acclimated to "normal life" after DNing?](https://www.reddit.com/r/digitalnomad/comments/1t43szy/help_getting_acclimated_to_normal_life_after_dning/) - /u/pizzatacodog1322
-- 2026-05-05 - [Has any couple successfully gotten a digital nomad visa using their combined income?](https://www.reddit.com/r/digitalnomad/comments/1t4pfca/has_any_couple_successfully_gotten_a_digital/) - /u/cytnhia
-- 2026-05-05 - [Concerns about airlines cutting flights and mobility?](https://www.reddit.com/r/digitalnomad/comments/1t4cmra/concerns_about_airlines_cutting_flights_and/) - /u/TheRealDynamitri
-- 2026-05-05 - [Best country to digital nomad for a month](https://www.reddit.com/r/digitalnomad/comments/1t4v966/best_country_to_digital_nomad_for_a_month/) - /u/Lamby32
-- 2026-05-05 - [Beach town recs](https://www.reddit.com/r/digitalnomad/comments/1t4bqo3/beach_town_recs/) - /u/No_Foot_4943
-- 2026-05-05 - [Are all of you living longterm in Thailand not concerned about your health?](https://www.reddit.com/r/digitalnomad/comments/1t3zm2s/are_all_of_you_living_longterm_in_thailand_not/) - /u/YetiMaverick
-- 2026-05-05 - [Anyone tried Nepal as a digital nomad base?](https://www.reddit.com/r/digitalnomad/comments/1t487pr/anyone_tried_nepal_as_a_digital_nomad_base/) - /u/sushil10018
 - 2026-05-01 - [Digital Nomads Monthly Megathread - May 2026](https://www.reddit.com/r/digitalnomad/comments/1t0johw/digital_nomads_monthly_megathread_may_2026/) - /u/AutoModerator
 - 2022-07-01 - [Want to make a post? Read this first!](https://www.reddit.com/r/digitalnomad/comments/vpcdi2/want_to_make_a_post_read_this_first/) - /u/Chris_Talks_Football
