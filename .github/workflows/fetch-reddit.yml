@@ -23,6 +23,8 @@ jobs:
       - name: Write fetch script
         run: |
           cat > fetch_reddit.py <<'PYEOF'
+          import html
+          import re
           import urllib.request
           import xml.etree.ElementTree as ET
           from datetime import datetime, timezone
@@ -37,11 +39,28 @@ jobs:
           UA = "loot-growth-intel/0.1 (by /u/Ffasant; contact: filipe.fsantiago@gmail.com)"
           ATOM = "{http://www.w3.org/2005/Atom}"
           MAX_PER_SUB = 25
+          BODY_DIGEST_CHARS = 500
+
+          TAG_RE = re.compile(r"<[^>]+>")
+          WS_RE = re.compile(r"\s+")
 
           def fetch(url):
               req = urllib.request.Request(url, headers={"User-Agent": UA})
               with urllib.request.urlopen(req, timeout=20) as r:
                   return r.read()
+
+          def clean_body(raw):
+              if not raw:
+                  return ""
+              # Reddit atom <content> is HTML-encoded markup wrapped in &lt;!-- SC_OFF --&gt;
+              # First unescape entities, then strip tags, then collapse whitespace.
+              text = html.unescape(raw)
+              text = TAG_RE.sub(" ", text)
+              text = html.unescape(text)  # second pass for double-encoded entities
+              text = WS_RE.sub(" ", text).strip()
+              # Markdown-escape pipes so item lines stay table-safe + readable in digest.
+              text = text.replace("|", "\\|")
+              return text
 
           def parse(xml_bytes):
               root = ET.fromstring(xml_bytes)
@@ -52,14 +71,16 @@ jobs:
                   link = link_e.get("href") if link_e is not None else ""
                   updated = (entry.findtext(ATOM + "updated") or "")[:10]
                   author = ""
-                  # author XPath fix
                   author_el = entry.find(ATOM + "author")
                   if author_el is not None:
                       name_el = author_el.find(ATOM + "name")
                       if name_el is not None and name_el.text:
                           author = name_el.text.strip()
-                  items.append((updated, title, link, author))
-              items.sort(reverse=True)
+                  content_el = entry.find(ATOM + "content")
+                  body_raw = (content_el.text or "") if content_el is not None else ""
+                  body = clean_body(body_raw)
+                  items.append((updated, title, link, author, body))
+              items.sort(key=lambda i: (i[0], i[1]), reverse=True)
               return items[:MAX_PER_SUB]
 
           stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -67,6 +88,8 @@ jobs:
           out.append("# Reddit Watch - Updated " + stamp + "\n")
           out.append("Automated RSS pull. One section per subreddit, newest first, "
                      "max " + str(MAX_PER_SUB) + " items per sub. "
+                     "Self-post bodies included under each entry (truncated to "
+                     + str(BODY_DIGEST_CHARS) + " chars). "
                      "Filter for Wave / Canadian freelance / invoicing / GST signal on read.\n")
 
           for label, url in FEEDS:
@@ -76,9 +99,14 @@ jobs:
                   if not items:
                       out.append("_No items returned._\n")
                       continue
-                  for date, title, link, author in items:
-                      safe = title.replace("|", "\\|").replace("\n", " ")
-                      out.append("- " + date + " - [" + safe + "](" + link + ") - " + author)
+                  for date, title, link, author, body in items:
+                      safe_title = title.replace("|", "\\|").replace("\n", " ")
+                      out.append("- " + date + " - [" + safe_title + "](" + link + ") - " + author)
+                      if body:
+                          digest = body if len(body) <= BODY_DIGEST_CHARS else body[:BODY_DIGEST_CHARS].rstrip() + "..."
+                          out.append("  > " + digest)
+                      else:
+                          out.append("  > _(link post or empty body)_")
               except Exception as e:
                   out.append("_Fetch failed: " + type(e).__name__ + ": " + str(e) + "_\n")
 
