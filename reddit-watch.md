@@ -1,4 +1,4 @@
-# Reddit Watch - Updated 2026-11-25 15:20 UTC
+# Reddit Watch - Updated 2026-11-26 14:46 UTC
 
 Automated RSS pull. One section per subreddit, newest first, max 25 items per sub. Self-post bodies included under each entry (truncated to 500 chars). Filter for Wave / Canadian freelance / invoicing / GST signal on read.
 
@@ -10,20 +10,20 @@ _Fetch failed: HTTPError: HTTP Error 404: Not Found_
 
 ## r/PersonalFinanceCanada
 
-_Fetch failed: HTTPError: HTTP Error 429: Too Many Requests_
+_Fetch failed: HTTPError: HTTP Error 404: Not Found_
 
 
 ## r/smallbusiness
 
-_Fetch failed: HTTPError: HTTP Error 404: Not Found_
+_Fetch failed: HTTPError: HTTP Error 429: Too Many Requests_
 
 
 ## r/WorkOnline
 
-_Fetch failed: HTTPError: HTTP Error 429: Too Many Requests_
+_Fetch failed: HTTPError: HTTP Error 404: Not Found_
 
 
 ## r/digitalnomad
 
-_Fetch failed: HTTPError: HTTP Error 404: Not Found_
+_Fetch failed: HTTPError: HTTP Error 429: Too Many Requests_
 
